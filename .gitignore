@@ -49,3 +49,5 @@ oclint-0.10.3/
 *.tar.gz.1
 =======
 >>>>>>> 19ff5cf322e63b8ab7d0c50119e7387044c0e665
+travis_qmake_gcc_cpp98_boost_test_oclint
+travis_qmake_gcc_cpp98_boost_test_oclint_test
