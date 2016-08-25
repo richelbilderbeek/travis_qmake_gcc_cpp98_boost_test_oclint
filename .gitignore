@@ -40,14 +40,8 @@ exe_debug.txt
 exe_release.txt
 test_release.txt
 test_debug.txt
-travis_qmake_gcc_cpp98_boost_test
-travis_qmake_gcc_cpp98_boost_test_exe
-travis_qmake_gcc_cpp98_boost_test_test
 *.tar.gz
-oclint-0.10.3/
-<<<<<<< HEAD
 *.tar.gz.1
-=======
->>>>>>> 19ff5cf322e63b8ab7d0c50119e7387044c0e665
+oclint-0.10.3/
 travis_qmake_gcc_cpp98_boost_test_oclint
 travis_qmake_gcc_cpp98_boost_test_oclint_test
