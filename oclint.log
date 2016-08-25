@@ -1,0 +1,12 @@
+
+
+OCLint Report
+
+Summary: TotalFiles=5 FilesWithViolations=2 P1=0 P2=0 P3=4 
+
+/home/p230198/GitHubs/travis_qmake_gcc_cpp98_boost_test_oclint/my_functions.cpp:3:9: short variable name [naming|P3] Variable name with 1 characters is shorter than the threshold of 3
+/home/p230198/GitHubs/travis_qmake_gcc_cpp98_boost_test_oclint/my_functions.cpp:3:22: short variable name [naming|P3] Variable name with 1 characters is shorter than the threshold of 3
+/home/p230198/GitHubs/travis_qmake_gcc_cpp98_boost_test_oclint/my_functions.h:4:9: short variable name [naming|P3] Variable name with 1 characters is shorter than the threshold of 3
+/home/p230198/GitHubs/travis_qmake_gcc_cpp98_boost_test_oclint/my_functions.h:4:22: short variable name [naming|P3] Variable name with 1 characters is shorter than the threshold of 3
+
+[OCLint (http://oclint.org) v0.10.3]
