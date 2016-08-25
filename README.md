@@ -16,8 +16,10 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Source: multiple files
 
 More complex builds:
+ * Use C++11: [travis_qmake_gcc_cpp11_boost_test_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test_oclint)
  * Use C++14: [travis_qmake_gcc_cpp14_boost_test_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_oclint)
 
 Less complex builds:
- * Use C++98: [travis_qmake_gcc_cpp98_boost_test_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test_oclint)
- * Use Boost only, no Boost.Test: [travis_qmake_gcc_cpp98_boost_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_oclint)
+ * No OCLint: [travis_qmake_gcc_cpp98_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test)
+ * No Boost.Test, just Boost: [travis_qmake_gcc_cpp98_boost_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_oclint)
+ * No Boost: [travis_qmake_gcc_cpp98_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_oclint)
