@@ -1,0 +1,26 @@
+sudo: required
+language: cpp
+compiler: gcc
+
+addons: 		
+  apt: 		
+    packages: libboost-all-dev
+
+install:
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test --yes
+  - sudo apt-get update -qq 
+  - sudo apt-get install -qq libstdc++6-4.7-dev  
+  - ./install_oclint.sh
+
+script: 
+  - ./do_oclint.sh
+  - ./build.sh
+  - ./build_test.sh
+  - ./travis_qmake_gcc_cpp98_boost_test_oclint_test
+  - ./travis_qmake_gcc_cpp98_boost_test_oclint
+
+after_success:
+  - cat oclint.log
+
+after_failure:
+  - cat oclint.log
